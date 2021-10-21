@@ -19,6 +19,6 @@ module.exports = {
         database: process.env.DATABASE,
         host: process.env.DATABASE_HOST,
         dialect: "mysql",
-        use_env_variable: JAWSBD_URL
+        "use_env_variable": "JAWSBD_URL"
     },
 };
